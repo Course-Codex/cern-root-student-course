@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>course-codex/cern-root-student-course — Estudos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./css/paleta_cores.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/nav_bar.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/studies.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7FEY66C3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EM7FEY66C3');
+</script>
+
+<body>
+    <header class="navbar">
+        <div class="wrap">
+            <!-- Link extra à esquerda -->
+            <a class="repo-link" href="https://course-codex.github.io" title="Repositório Central">⚛</a>
+
+            <div class="brand"><a href="./index.html">Homepage</a></div>
+            <nav class="nav">
+                <a href="./references.html">References</a>
+                <a href="./studies.html">Studies</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-wide">
+        <div class="layout">
+            <aside class="sidebar">
+                <input id="q" class="search" placeholder="Filter notebooks..." />
+                <ul id="tree" class="tree"></ul>
+            </aside>
+            <section class="viewer">
+                <iframe id="viewer" src=""></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- injeta a árvore apenas nesta página -->
+    <script>
+        window.TREE_DATA = {"type": "dir", "name": "src", "path": "", "children": [{"type": "dir", "name": "course", "path": "course", "children": [{"type": "dir", "name": "exercises", "path": "course/exercises", "children": [{"type": "dir", "name": "core", "path": "course/exercises/core", "children": [{"type": "file", "name": "fitting-exercise.ipynb", "path": "course/exercises/core/fitting-exercise.ipynb", "nb_html": "course/exercises/core/fitting-exercise.html"}, {"type": "file", "name": "rdataframe-basics.ipynb", "path": "course/exercises/core/rdataframe-basics.ipynb", "nb_html": "course/exercises/core/rdataframe-basics.html"}, {"type": "file", "name": "rdataframe-collections.ipynb", "path": "course/exercises/core/rdataframe-collections.ipynb", "nb_html": "course/exercises/core/rdataframe-collections.html"}]}, {"type": "dir", "name": "extra", "path": "course/exercises/extra", "children": [{"type": "dir", "name": "01_Histograms_Graphs_Functions", "path": "course/exercises/extra/01_Histograms_Graphs_Functions", "children": [{"type": "file", "name": "CreateAHistogram.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/CreateAHistogram.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/CreateAHistogram.html"}, {"type": "file", "name": "graphDraw.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/graphDraw.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/graphDraw.html"}, {"type": "dir", "name": "solutions", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions", "children": [{"type": "file", "name": "CreateAHistogramCpp_Solution.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/CreateAHistogramCpp_Solution.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/CreateAHistogramCpp_Solution.html"}, {"type": "file", "name": "CreateAHistogram_Solution.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/CreateAHistogram_Solution.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/CreateAHistogram_Solution.html"}, {"type": "file", "name": "SimpleFunction.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleFunction.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleFunction.html"}, {"type": "file", "name": "SimpleGraph.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleGraph.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleGraph.html"}, {"type": "file", "name": "SimpleHistogram.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleHistogram.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/SimpleHistogram.html"}, {"type": "file", "name": "graphDraw_Solution.ipynb", "path": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/graphDraw_Solution.ipynb", "nb_html": "course/exercises/extra/01_Histograms_Graphs_Functions/solutions/graphDraw_Solution.html"}]}]}, {"type": "dir", "name": "02_Fitting", "path": "course/exercises/extra/02_Fitting", "children": [{"type": "dir", "name": "notebooks", "path": "course/exercises/extra/02_Fitting/notebooks", "children": [{"type": "file", "name": "CentralLimitTheorem.ipynb", "path": "course/exercises/extra/02_Fitting/notebooks/CentralLimitTheorem.ipynb", "nb_html": "course/exercises/extra/02_Fitting/notebooks/CentralLimitTheorem.html"}, {"type": "file", "name": "GausFit.ipynb", "path": "course/exercises/extra/02_Fitting/notebooks/GausFit.ipynb", "nb_html": "course/exercises/extra/02_Fitting/notebooks/GausFit.html"}, {"type": "file", "name": "GausFit_2.ipynb", "path": "course/exercises/extra/02_Fitting/notebooks/GausFit_2.ipynb", "nb_html": "course/exercises/extra/02_Fitting/notebooks/GausFit_2.html"}, {"type": "file", "name": "HiggsBinFit.ipynb", "path": "course/exercises/extra/02_Fitting/notebooks/HiggsBinFit.ipynb", "nb_html": "course/exercises/extra/02_Fitting/notebooks/HiggsBinFit.html"}]}, {"type": "dir", "name": "solutions", "path": "course/exercises/extra/02_Fitting/solutions", "children": [{"type": "file", "name": "CentralLimitTheorem_Solution.ipynb", "path": "course/exercises/extra/02_Fitting/solutions/CentralLimitTheorem_Solution.ipynb", "nb_html": "course/exercises/extra/02_Fitting/solutions/CentralLimitTheorem_Solution.html"}, {"type": "file", "name": "GausFit_2_Solution.ipynb", "path": "course/exercises/extra/02_Fitting/solutions/GausFit_2_Solution.ipynb", "nb_html": "course/exercises/extra/02_Fitting/solutions/GausFit_2_Solution.html"}]}]}, {"type": "dir", "name": "03_Working_With_Files", "path": "course/exercises/extra/03_Working_With_Files", "children": [{"type": "file", "name": "WritingOnFilesExercise.ipynb", "path": "course/exercises/extra/03_Working_With_Files/WritingOnFilesExercise.ipynb", "nb_html": "course/exercises/extra/03_Working_With_Files/WritingOnFilesExercise.html"}, {"type": "dir", "name": "solutions", "path": "course/exercises/extra/03_Working_With_Files/solutions", "children": [{"type": "file", "name": "WritingOnFiles_Solution.ipynb", "path": "course/exercises/extra/03_Working_With_Files/solutions/WritingOnFiles_Solution.ipynb", "nb_html": "course/exercises/extra/03_Working_With_Files/solutions/WritingOnFiles_Solution.html"}]}]}, {"type": "dir", "name": "04_RDataFrame", "path": "course/exercises/extra/04_RDataFrame", "children": [{"type": "file", "name": "rdataframe-dimuon.ipynb", "path": "course/exercises/extra/04_RDataFrame/rdataframe-dimuon.ipynb", "nb_html": "course/exercises/extra/04_RDataFrame/rdataframe-dimuon.html"}, {"type": "dir", "name": "solutions", "path": "course/exercises/extra/04_RDataFrame/solutions", "children": [{"type": "file", "name": "solution-rdataframe-dimuon.ipynb", "path": "course/exercises/extra/04_RDataFrame/solutions/solution-rdataframe-dimuon.ipynb", "nb_html": "course/exercises/extra/04_RDataFrame/solutions/solution-rdataframe-dimuon.html"}]}]}]}]}, {"type": "dir", "name": "notebooks", "path": "course/notebooks", "children": [{"type": "dir", "name": "core", "path": "course/notebooks/core", "children": [{"type": "file", "name": "00-root-intro.ipynb", "path": "course/notebooks/core/00-root-intro.ipynb", "nb_html": "course/notebooks/core/00-root-intro.html"}, {"type": "file", "name": "01-histograms-and-graphs.ipynb", "path": "course/notebooks/core/01-histograms-and-graphs.ipynb", "nb_html": "course/notebooks/core/01-histograms-and-graphs.html"}, {"type": "file", "name": "02-tfile-read-write-ttree.ipynb", "path": "course/notebooks/core/02-tfile-read-write-ttree.ipynb", "nb_html": "course/notebooks/core/02-tfile-read-write-ttree.html"}, {"type": "file", "name": "03-rdataframe-basics.ipynb", "path": "course/notebooks/core/03-rdataframe-basics.ipynb", "nb_html": "course/notebooks/core/03-rdataframe-basics.html"}, {"type": "file", "name": "04-rdataframe-collections.ipynb", "path": "course/notebooks/core/04-rdataframe-collections.ipynb", "nb_html": "course/notebooks/core/04-rdataframe-collections.html"}, {"type": "file", "name": "05-rdataframe-features.ipynb", "path": "course/notebooks/core/05-rdataframe-features.ipynb", "nb_html": "course/notebooks/core/05-rdataframe-features.html"}, {"type": "file", "name": "06-rdataframe-advanced.ipynb", "path": "course/notebooks/core/06-rdataframe-advanced.ipynb", "nb_html": "course/notebooks/core/06-rdataframe-advanced.html"}]}, {"type": "dir", "name": "extra", "path": "course/notebooks/extra", "children": [{"type": "file", "name": "extra-00-setup.ipynb", "path": "course/notebooks/extra/extra-00-setup.ipynb", "nb_html": "course/notebooks/extra/extra-00-setup.html"}, {"type": "file", "name": "extra-01-jupyter.ipynb", "path": "course/notebooks/extra/extra-01-jupyter.ipynb", "nb_html": "course/notebooks/extra/extra-01-jupyter.html"}, {"type": "file", "name": "extra-02-root-python-cpp.ipynb", "path": "course/notebooks/extra/extra-02-root-python-cpp.ipynb", "nb_html": "course/notebooks/extra/extra-02-root-python-cpp.html"}, {"type": "file", "name": "extra-03-root-in-jupyter.ipynb", "path": "course/notebooks/extra/extra-03-root-in-jupyter.ipynb", "nb_html": "course/notebooks/extra/extra-03-root-in-jupyter.html"}]}]}]}]};
+    </script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
