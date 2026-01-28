@@ -13233,13 +13233,22 @@ div#notebook {
             padding-top: 0 !important;
             padding-bottom: 0 !important;
         }
+
+        /* Esconde qualquer saída em stderr no notebook exportado */
+        .output_subarea.output_stream.output_stderr {
+            display: none !important;
+        }
+
+        .output_subarea.output_stream.output_stderr.output_text {
+            display: none !important;
+        }
         </style>
 </head>
 <body>
 <main>
 <div class="border-box-sizing" id="notebook" tabindex="-1">
 <div class="container" id="notebook-container">
-<div class="cell border-box-sizing text_cell rendered" id="cell-id=4e90eb28"><div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered" id="cell-id=941646a3"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ROOT-Basic-Tools:-histograms-and-graphs">ROOT Basic Tools: histograms and graphs<a class="anchor-link" href="#ROOT-Basic-Tools:-histograms-and-graphs">¶</a></h1>
@@ -13265,7 +13274,7 @@ div#notebook {
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered" id="cell-id=cc1db7c7">
+<div class="cell border-box-sizing code_cell rendered celltag_remove-output" id="cell-id=cc1db7c7">
 <div class="input">
 <div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
@@ -13292,7 +13301,7 @@ macOS-26.2-arm64-arm-64bit-Mach-O
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered" id="cell-id=d9dd087d">
+<div class="cell border-box-sizing code_cell rendered celltag_remove-output" id="cell-id=d9dd087d">
 <div class="input">
 <div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
@@ -13328,7 +13337,7 @@ ROOTSYS: None
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered" id="cell-id=88e3869e">
+<div class="cell border-box-sizing code_cell rendered celltag_remove-output" id="cell-id=88e3869e">
 <div class="input">
 <div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
